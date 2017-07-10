@@ -1,3 +1,27 @@
+html,
 body {
-  background-color: black;
+  color: white;
+  height: 100%;
+  width: 80%;
+  text-align: center;
+}
+
+body {
+  background-image: url("/weatherapp/rain.jpeg");
+  background-size: auto;
+  background-blend-mode: darken, luminosity;
+}
+
+.wrapper {
+  margin: 25% auto;
+}
+
+.temp,
+.unit,
+.city,
+.weather {
+  background-color: grey;
+  border-radius: 2px;
+  padding: 10px;
+  display: inline-block;
 }
