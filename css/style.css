@@ -1,0 +1,63 @@
+body {
+	position: relative;
+}
+li{
+	margin-right:30px;
+	margin-left:30px;
+}
+#about{
+	background-color:grey;
+	margin-top:50px;
+	padding: 20px;
+	font-family:bengali;
+	color:whitesmoke;
+	font-size:20px;
+}
+#intro{
+	padding-top:50px;
+}
+#about img{
+	align-content:middle;
+	margin: auto;
+	margin-top 15px;
+}
+
+#portfolio,#contact{
+	background-color:lightgrey;
+}
+
+#portfolio div{
+	max-width:1100px;
+	max-height:500px;
+}
+#portfolio img{
+	margin: 10px;
+	padding: 10px;
+}
+#contact{
+	padding:20px;
+}
+
+footer li{
+	border:solid;
+	border-radius:50%;
+	display:inline-block;
+	color:black;
+}
+footer li a{
+	font-size:20px;
+		color:black;
+}
+footer li:hover{
+		border-color:white;
+}
+.linkedin a:hover{
+	color:#0077B5;
+}
+
+.github a:hover{
+	color:#000000;
+}
+.twitter a:hover{
+			color:#1DA1F2;
+}
